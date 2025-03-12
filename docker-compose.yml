@@ -1,0 +1,34 @@
+version: '3.8'
+
+services:
+  frontend:
+    image: node:16 # Используем официальный образ Node.js
+    container_name: my-shop-frontend
+    working_dir: /usr/src/app
+    volumes:
+      - .:/usr/src/app  # Монтируем текущую директорию в контейнер
+    ports:
+      - "3000:3000"     # Прокси порт
+    command: npm install && npm run dev  # Устанавливаем зависимости и запускаем приложение
+    environment:
+      - NODE_ENV=development
+    networks:
+      - my-shop-network
+
+  backend:
+    image: node:16  # Также используем официальный образ для бэкенда
+    container_name: my-shop-backend
+    working_dir: /usr/src/app
+    volumes:
+      - ./backend:/usr/src/app  # Монтируем каталог с бэкендом
+    ports:
+      - "5000:5000"  # Прокси порт для бэкенда
+    command: npm install && npm start  # Устанавливаем зависимости и запускаем бэкенд
+    environment:
+      - NODE_ENV=development
+    networks:
+      - my-shop-network
+
+networks:
+  my-shop-network:
+    driver: bridge

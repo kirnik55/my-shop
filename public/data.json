@@ -1,0 +1,140 @@
+{
+    "products": [
+    {
+    "id": 1,
+    "title": "Ноутбук ASUS VivoBook 15",
+    "price": 45000,
+    "description": "15.6 дюймов, Intel Core i5, 8 ГБ ОЗУ, 512 ГБ SSD",
+    "image": "/src/pages/Asus.webp",
+    "category": "electronics",
+    "rating": 4.7
+    },
+    {
+    "id": 2,
+    "title": "Смартфон Samsung Galaxy S21",
+    "price": 60000,
+    "description": "6.2 дюймов, 128 ГБ, Phantom Gray",
+    "image": "/src/pages/Samsung.webp",
+    "category": "electronics",
+    "rating": 4.8
+    },
+    {
+    "id": 3,
+    "title": "Наушники Sony WH-1000XM4",
+    "price": 25000,
+    "description": "Беспроводные, шумоподавление, черный",
+    "image": "/src/pages/Sony.webp",
+    "category": "electronics",
+    "rating": 4.9
+    },
+    {
+    "id": 4,
+    "title": "Фитнес-браслет Xiaomi Mi Band 6",
+    "price": 3000,
+    "description": "Цветной AMOLED-экран, черный",
+    "image": "/src/pages/MI6.webp",
+    "category": "electronics",
+    "rating": 4.6
+    },
+    {
+    "id": 5,
+    "title": "Планшет Apple iPad Air",
+    "price": 55000,
+    "description": "10.9 дюймов, 64 ГБ, Space Gray",
+    "image": "src/pages/Ipad.webp",
+    "category": "electronics",
+    "rating": 4.8
+    },
+    {
+    "id": 6,
+    "title": "Фотоаппарат Canon EOS R6",
+    "price": 150000,
+    "description": "Зеркальный, 20 Мп, 4K видео",
+    "image": "src/pages/Canon.webp",
+    "category": "electronics",
+    "rating": 4.9
+    },
+    {
+    "id": 7,
+    "title": "Монитор Dell UltraSharp 27",
+    "price": 40000,
+    "description": "27 дюймов, 4K, IPS",
+    "image": "src/pages/Dell.webp",
+    "category": "electronics",
+    "rating": 4.7
+    },
+    {
+    "id": 8,
+    "title": "Игровая мышь Logitech G502",
+    "price": 5000,
+    "description": "11 программируемых кнопок, RGB",
+    "image": "src/pages/Logitech.webp",
+    "category": "electronics",
+    "rating": 4.8
+    },
+    {
+    "id": 9,
+    "title": "Клавиатура Keychron K6",
+    "price": 7000,
+    "description": "Механическая, Bluetooth, 65%",
+    "image": "src/pages/Key.jpg",
+    "category": "electronics",
+    "rating": 4.7
+    },
+    {
+    "id": 10,
+    "title": "Колонка JBL Flip 5",
+    "price": 8000,
+    "description": "Портативная, водонепроницаемая, синий",
+    "image": "src/pages/Jbl.webp",
+    "category": "electronics",
+    "rating": 4.6
+    },
+    {
+    "id": 11,
+    "title": "Футболка мужская",
+    "price": 1500,
+    "description": "Хлопок, черный",
+    "image": "src/pages/T.webp",
+    "category": "clothing",
+    "rating": 4.5
+    },
+    {
+    "id": 12,
+    "title": "Джинсы женские",
+    "price": 3000,
+    "description": "Скинни, синий",
+    "image": "src/pages/Jeans.webp",
+    "category": "clothing",
+    "rating": 4.6
+    },
+    {
+    "id": 13,
+    "title": "Куртка зимняя",
+    "price": 10000,
+    "description": "Пуховая, черный",
+    "image": "src/pages/Puff.webp",
+    "category": "clothing",
+    "rating": 4.7
+    },
+    {
+    "id": 14,
+    "title": "Кроссовки Nike Air Max",
+    "price": 8000,
+    "description": "Беговые, белый",
+    "image": "src/pages/Nike.webp",
+    "category": "clothing",
+    "rating": 4.8
+    },
+    {
+    "id": 15,
+    "title": "Рюкзак Herschel",
+    "price": 5000,
+    "description": "Повседневный, синий",
+    "image": "src/pages/Bag.webp",
+    "category": "clothing",
+    "rating": 4.6
+    }
+
+    ]
+   }
